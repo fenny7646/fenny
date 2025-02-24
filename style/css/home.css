@@ -1,0 +1,27 @@
+div.homecontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+div.headercontainer {
+    display: inherit;
+    flex-direction: inherit;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+div.headercontainer h1,h6{
+    margin: 0;
+}
+div.headercontainer h1{
+    font-size:  60pt;
+}
+div.headercontainer h6{
+    font-size:  15pt;
+}
+
+label.headercontainerlabel {
+    display: inherit;
+    flex-direction: row;
+}

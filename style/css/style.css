@@ -1,3 +1,7 @@
+/* Importing Styles */
+@import "header.css";
+@import "home.css";
+
 :root {
     /* Initializing Google Fonts */
     --main-font-family: "Titillium Web", serif;
@@ -8,7 +12,7 @@
     --main-font-color: #273334;
     --main-body-color: #a08b73;
     --main-header-text-font: #fdf4d9; 
-    --main-card-color: #5a4532;
+    --main-header-card-color: #5a4532;
     /* Initializing button hover colors */
     --main-header-hover-color: #fdf4d9;
     --main-card-hover-color: #fdf4d9;
@@ -16,35 +20,15 @@
     --main-header-text-hover-color: #5a4532;
 }
 
+* {
+    font-family: var(--main-font-family);
+    font-weight: var(--main-font-weight);
+    font-style: var(--main-font-style);
+}
+
 body {
     position: relative;
     margin:0;
     box-sizing: border-box;
-}
-
-div.header-bar {
-    position: fixed;
-    display: flex;
-    width: 100%;
-    height: auto;
-    justify-content: center;
-    font-family: var(--main-font-family);
-    font-style: var(--main-font-style);
-    font-size: calc(var(var(--main-font-size))-10pt);
-    background: var(--main-card-color);
-}
-div.header-item {
-    display: flex;
-    width: 80px;
-    height: 40px;
-    margin: 3px 10px;
-    justify-content: center;
-    align-items: center;
-    color: var(--main-header-text-font);
-}
-
-div.header-item:hover {
-    border-radius: 10%;
-    background-color: var(--main-header-hover-color);
-    color: var(--main-header-text-hover-color);
+    background: var(--main-body-color);
 }

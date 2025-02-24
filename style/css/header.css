@@ -1,0 +1,26 @@
+header.header-bar {
+    position: sticky;
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+    justify-content: center;
+    font-size: var(--main-font-size)-10pt;
+    background: var(--main-header-card-color);
+}
+header > div.header-item {
+    display: flex;
+    width: 80px;
+    height: 40px;
+    margin: 5px 5px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-header-text-font);
+    transition:  background-color 0.5s ease-in-out;
+}
+
+header > div.header-item:hover {
+    background-color: var(--main-header-hover-color);
+    color: var(--main-header-text-hover-color);
+}
