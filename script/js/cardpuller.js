@@ -12,8 +12,8 @@ function generateHtml(data) {
        html += `
          <div class="card">
           <header>
-            <h1>${value.name}</h1>
-            <h2>Technologies</h2>
+            <h1>${value.name1}</h1>
+            <h2>${value.name2}</h2>
           </header>
           ${value.sub_entry.map(entry => `
             <main>

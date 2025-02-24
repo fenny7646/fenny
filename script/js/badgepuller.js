@@ -10,8 +10,8 @@ function generateHtml(data) {
      for (const key of sortedKeys) {
        const values = data.mainbadge[key];
        html += `
-        <a href="${values.badge_link}" class="">
-          <ion-icon name="${values.badge_icon}" class=""></ion-icon>
+        <a href="${values.badge_link}" class="headercontainerlabel-container">
+          <ion-icon name="${values.badge_icon}" class="headercontainerlabel-items"></ion-icon>
         </a>
         `;
      }

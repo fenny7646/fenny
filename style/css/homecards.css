@@ -1,6 +1,7 @@
 div.maincontainer {
     display: flex;
     flex-direction: column;
+    z-index: 1;
 }
 
 div.maincontainer > div.mainheader {
@@ -11,7 +12,7 @@ div.maincontainer > div.mainheader {
 }
 
 div.maincontainer > cards.cardscontainer {
-    display: inherit;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
