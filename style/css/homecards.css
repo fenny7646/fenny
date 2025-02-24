@@ -1,0 +1,87 @@
+div.maincontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+div.maincontainer > div.mainheader {
+    font-size: 20pt;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+div.maincontainer > cards.cardscontainer {
+    display: inherit;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 20px;
+    gap: 20px;
+}
+
+cards > div.card {
+    flex: 1 1 auto;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: var(--main-header-card-color);
+}
+
+div.card > header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-card-head-color);
+    border-radius: 10px;
+}
+
+.card h1 {
+    font-size: 25pt;
+    margin: 0px 1px;
+}
+
+.card h2 {
+    font-weight: 300;
+    font-size: 15pt;
+    margin: 0px 1px;
+}
+
+.card main {
+    display:flex;
+    flex-direction: column;
+}
+
+div.titleheader {
+    display: flex;
+    justify-content: start;
+    width: 70%;
+    height: auto;
+    margin: 12px 0px;
+    padding: 8px;
+    border-radius: 6px;
+    background-color: var(--main-card-head-color);
+}
+
+div.titleheader h3 {
+    font-weight: 300;
+    font-size: 16pt;
+    margin: 0;
+}
+
+div.itemcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+div.itemcontainer > item {
+    width: auto;
+    height: auto;
+    padding: 6px;
+    background-color: var(--main-card-head-color);
+    border-radius: 3px;
+    font-weight: 300;
+}
