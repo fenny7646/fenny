@@ -46,7 +46,7 @@ a.headercontainerlabel-container > ion-icon.headercontainerlabel-items {
     transition: all 0.3s;
 }
 
-a.headercontainerlabel-container > ion-icon.headercontainerlabel-items:hover {
+a.headercontainerlabel-container:hover ion-icon.headercontainerlabel-items {
     width: 35px;
     height: 35px;
     background-color: var(--main-header-card-color);

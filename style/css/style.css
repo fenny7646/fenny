@@ -4,6 +4,7 @@
 @import "homecards.css";
 @import "procards.css";
 @import "mediaquery.css";
+@import "hover.css";
 
 :root {
     /* Initializing Google Fonts */

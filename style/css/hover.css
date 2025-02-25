@@ -1,0 +1,18 @@
+
+/* Hover Settiong for Project Page */
+.linkcontainer .linker:hover {
+    background-color: var(--main-header-card-color);
+    border: 1px solid var(--main-card-head-color);
+}
+
+.linkcontainer .linker:hover a {
+    color: var(--main-header-text-font);
+}
+
+/* Hover Settings for Home Page  */
+header > a.header-item:hover {
+    background-color: var(--main-header-hover-color);
+    color: var(--main-header-text-hover-color);
+}
+
+
