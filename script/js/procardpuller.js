@@ -24,17 +24,15 @@ function generateHtml(data) {
               </div>
               <div class="proitemcontainer">
                 ${(value.dots).map(dot => `
-                <item>${dot}</item>
+                <div class="item">${dot}</div>
                     `).join('')}
               </div>
             </main>
-            <linkcontainer>
+            <div class="linkcontainer">
                 ${(value.links).map(linker => `
-                <linker>
-                <a href="${linker.link}">${linker.name}</a>
-                </linker>
+                  <div class="linker"><a href="${linker.link}">${linker.name}</a></div>
                 `).join('')}
-            <linkcontainer>
+            </div>
         </div>
        `;
      }
