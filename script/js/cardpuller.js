@@ -22,7 +22,10 @@ function generateHtml(data) {
               </div>
               <div class="itemcontainer">
                 ${entry.items.map(item => `
-                <item>${item}</item>
+                <item>
+                <ion-icon name="caret-forward-outline"></ion-icon>
+                <marker>${item}</marker>
+                </item>
                 `).join('')}
               </div>
             </main>

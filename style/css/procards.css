@@ -72,6 +72,10 @@
 }
 
 .proitemcontainer > .item {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
     width: auto;
     height: auto;
     padding: 6px;
