@@ -3,6 +3,7 @@
 @import "home.css";
 @import "homecards.css";
 @import "procards.css";
+@import "mediaquery.css";
 
 :root {
     /* Initializing Google Fonts */

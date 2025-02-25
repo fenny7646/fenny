@@ -1,0 +1,5 @@
+@media (max-width: 500px) {
+    div.headercontainer h1 {
+        font-size: 30pt;
+    }
+}
