@@ -1,4 +1,4 @@
-@media (max-width: 500px) {
+@media (max-width: 400px) {
 
     div.headercontainer h1 {
         font-size: 30pt;
@@ -6,5 +6,15 @@
 
     header.header-bar {
         width: 90vw;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 500px) {
+    div.headercontainer h1 {
+        font-size: 30pt;
+    }
+
+    header.header-bar {
+        width: 92vw;
     }
 }
