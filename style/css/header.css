@@ -13,7 +13,7 @@ header.header-bar {
     border-radius: 7px;
     justify-content: center;
     font-size: var(--main-font-size)-10pt;
-    background: var(--main-header-card-color);
+    background: var(--main-header-color);
     z-index: 2;
 }
 header > a.header-item {
@@ -27,9 +27,4 @@ header > a.header-item {
     align-items: center;
     color: var(--main-header-text-font);
     transition:  background-color 0.5s ease-in-out;
-}
-
-header > a.header-item:hover {
-    background-color: var(--main-header-hover-color);
-    color: var(--main-header-text-hover-color);
 }

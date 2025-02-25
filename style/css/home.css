@@ -34,7 +34,7 @@ label.headercontainerlabel > a.headercontainerlabel-container {
     width: 37px;
     height: 37px;
     margin: 10px;
-    border: solid var(--main-font-color);
+    border: 2px solid var(--home-header-label-border-color);
     border-radius: 50%;
 }
 

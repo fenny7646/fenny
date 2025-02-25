@@ -12,19 +12,19 @@ function generateHtml(data) {
        html += `
          <div class="card">
           <header>
-            <h1>${value.name1}</h1>
-            <h2>${value.name2}</h2>
+            <h1 class="fcolor">${value.name1}</h1>
+            <h2 class="fcolor">${value.name2}</h2>
           </header>
           ${value.sub_entry.map(entry => `
             <main>
               <div class="titleheader">
-                <h3>${entry.title}</h3>
+                <h3 class="fcolor">${entry.title}</h3>
               </div>
               <div class="itemcontainer">
                 ${entry.items.map(item => `
                 <item>
                 <ion-icon name="caret-forward-outline"></ion-icon>
-                <marker>${item}</marker>
+                <marker class="fcolor">${item}</marker>
                 </item>
                 `).join('')}
               </div>

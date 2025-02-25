@@ -1,12 +1,12 @@
 
 /* Hover Settiong for Project Page */
 .linkcontainer .linker:hover {
-    background-color: var(--main-header-card-color);
-    border: 1px solid var(--main-card-head-color);
+    background-color: var(--proj-link-button-hover-background-color);
+    border: 1px solid var(--proj-link-button-hover-border-color);
 }
 
 .linkcontainer .linker:hover a {
-    color: var(--main-header-text-font);
+    color: var(--proj-link-button-text-hover-color);
 }
 
 /* Hover Settings for Home Page  */
@@ -15,10 +15,14 @@ header > a.header-item:hover {
     color: var(--main-header-text-hover-color);
 }
 
-a.headercontainerlabel-container:hover ion-icon.headercontainerlabel-items {
-    width: 35px;
-    height: 35px;
-    background-color: var(--main-header-card-color);
-    color: var(--main-header-hover-color);
+.headercontainerlabel-container:hover {
+    overflow: hidden;
+    border: solid var(--home-header-label-hover-border-color);
 }
 
+a.headercontainerlabel-container:hover ion-icon.headercontainerlabel-items {
+    width: 50px;
+    height: 50px;
+    background-color: var(--main-header-card-color);
+    color: var(--home-header-label-hover-color);
+}

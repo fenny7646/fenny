@@ -17,23 +17,23 @@ function generateHtml(data) {
           </header>
             <main>
               <div class="titleheader">
-                <h3>Description</h3>
+                <h3 class="fcolor">Description</h3>
               </div>
               <div class="desccontainer">
-                <h4>${value.desc}</h4>
+                <h4 class="fcolor">${value.desc}</h4>
               </div>
               <div class="proitemcontainer">
                 ${(value.dots).map(dot => `
                 <div class="item">
                 <ion-icon name="caret-forward-outline"></ion-icon>
-                <marker>${dot}</marker>
+                <marker class="fcolor">${dot}</marker>
                 </div>
                     `).join('')}
               </div>
             </main>
             <div class="linkcontainer">
                 ${(value.links).map(linker => `
-                  <div class="linker"><a href="${linker.link}">${linker.name}</a></div>
+                  <div class="linker"><a class="fcolor" href="${linker.link}">${linker.name}</a></div>
                 `).join('')}
             </div>
         </div>

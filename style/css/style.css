@@ -12,17 +12,26 @@
     --main-font-weight: 600;
     --main-font-style: normal;
     --main-font-size: 15pt;
-    /* initializing Colors */
+    /* initializing Common Colors */
     --main-font-color: #273334;
     --main-body-color: #a08b73;
-    --main-header-text-font: #fdf4d9; 
+    --main-header-text-font: #5a4532; 
+    --main-header-color: #fdf4d9;
+    --home-header-label-border-color: #fdf4d9;
+    /* initializing Home Colors */
+    /* Initializing Project Colors */
+    --proj-link-button-color: #fdf4d9;
     --main-card-head-color: #fdf4d9;
     --main-header-card-color: #5a4532;
     /* Initializing button hover colors */
-    --main-header-hover-color: #fdf4d9;
+    --main-header-hover-color: #5a4532;
     --main-card-hover-color: #fdf4d9;
     --main-card-hover-font-color: #5a4532;
-    --main-header-text-hover-color: #5a4532;
+    --main-header-text-hover-color: #fdf4d9;
+    --proj-link-button-hover-background-color: #5a4532;
+    --proj-link-button-hover-border-color: #fdf4d9;
+    --proj-link-button-text-hover-color: #fdf4d9;
+    --home-header-label-hover-color: #fdf4d9;
 }
 
 * {
@@ -37,4 +46,8 @@ body {
     margin:0;
     box-sizing: border-box;
     background: var(--main-body-color);
+}
+
+.fcolor {
+    color: var(--main-font-color)
 }
