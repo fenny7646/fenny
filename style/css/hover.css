@@ -15,4 +15,10 @@ header > a.header-item:hover {
     color: var(--main-header-text-hover-color);
 }
 
+a.headercontainerlabel-container:hover ion-icon.headercontainerlabel-items {
+    width: 35px;
+    height: 35px;
+    background-color: var(--main-header-card-color);
+    color: var(--main-header-hover-color);
+}
 
