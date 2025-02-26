@@ -1,8 +1,10 @@
 {
   "name": "portio",
   "version": "1.0.0",
+  "description": "PortFolio Project Hosted on Github",
   "main": "webpack.config.js",
   "scripts": {
+    "build": "webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +18,13 @@
     "url": "https://github.com/fenny7646/fenny/issues"
   },
   "homepage": "https://github.com/fenny7646/fenny#readme",
-  "description": ""
+  "dependencies": {},
+  "devDependencies": {
+    "dotenv-webpack": "^7.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0",
+    "babel-loader": "^8.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0"
+  }
 }
