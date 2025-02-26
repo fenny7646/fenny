@@ -81,11 +81,15 @@
     width: auto;
     height: auto;
     padding: 6px;
-    background-color: var(--main-card-head-color);
+    border: 1px solid var(--proj-card-item-border-color);
+    background-color: var(--proj-card-item-background-color);
     border-radius: 3px;
     font-weight: 300;
 }
-
+.item > marker,ion-icon {
+    font-weight: 300;
+    color: var(--proj-card-item-text-color);
+}
 .procard .linkcontainer {
     display: flex;
     flex-direction: row;

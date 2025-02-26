@@ -89,11 +89,13 @@ div.itemcontainer > item {
     width: auto;
     height: auto;
     padding: 6px;
-    background-color: var(--main-card-head-color);
+    border: 1px solid var(--stack-card-item-border-color);
+    background-color: var(--stack-card-item-background-color);
     border-radius: 3px;
     font-weight: 300;
 }
 
-item marker {
+item marker, ion-icon {
     font-weight: 300;
+    color: var(--stack-card-item-text-color);
 }

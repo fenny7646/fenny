@@ -24,7 +24,7 @@ function generateHtml(data) {
                 ${entry.items.map(item => `
                 <item>
                 <ion-icon name="caret-forward-outline"></ion-icon>
-                <marker class="fcolor">${item}</marker>
+                <marker>${item}</marker>
                 </item>
                 `).join('')}
               </div>

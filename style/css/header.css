@@ -14,6 +14,7 @@ header.header-bar {
     justify-content: center;
     font-size: var(--main-font-size)-10pt;
     background: var(--main-header-color);
+    border: 3px solid var(--main-header-border-color);
     z-index: 2;
 }
 header > a.header-item {
