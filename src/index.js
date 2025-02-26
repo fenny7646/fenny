@@ -5,7 +5,7 @@ import '../script/js/firebase';
 
 // Import other scripts
 import '../script/js/procardpuller';
-import '../script/js/badgepullerpuller';
+import '../script/js/badgepuller';
 import '../script/js/procardpuller';
 
 // Import styles
