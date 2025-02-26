@@ -1,0 +1,20 @@
+{
+  "name": "portio",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fenny7646/fenny.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fenny7646/fenny/issues"
+  },
+  "homepage": "https://github.com/fenny7646/fenny#readme",
+  "description": ""
+}

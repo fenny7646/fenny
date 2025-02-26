@@ -3,16 +3,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/11.3.1/firebas
 import { getFirestore, collection, getDocs } from "https://www.gstatic.com/firebasejs/11.3.1/firebase-firestore.js";
 
 // Firebase configuration (replace with your Firebase project config)
-const firebaseConfig = {
-  apiKey: "AIzaSyACp0-ANsu-TKxsvNCsEqX9LsFK253IBiM",
-  authDomain: "portfolio-7646.firebaseapp.com",
-  databaseURL: "https://portfolio-7646-default-rtdb.firebaseio.com",
-  projectId: "portfolio-7646",
-  storageBucket: "portfolio-7646.firebasestorage.app",
-  messagingSenderId: "721827608324",
-  appId: "1:721827608324:web:6aeb0b2de1843f1b79c251",
-  measurementId: "G-T8QWBEKZTN"
-};
+const firebaseConfig = process.env.FIREBASE_AUTH;
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
