@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/fenny7646/fenny#readme",
   "dependencies": {
-    "dotenv": "^16.4.7",
     "firebase": "^9.6.1"
   },
   "devDependencies": {
