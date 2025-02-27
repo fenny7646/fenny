@@ -37,5 +37,12 @@ module.exports = {
                 use: ['style-loader', 'css-loader']
             }
         ]
+    },
+    resolve: {
+        extensions: ['.js', '.jsx'],
+        alias: {
+            'firebase/app': path.resolve(__dirname, 'node_modules/firebase/app'),
+            'firebase/firestore': path.resolve(__dirname, 'node_modules/firebase/firestore')
+        }
     }
 };
