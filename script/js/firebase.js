@@ -4,14 +4,14 @@ import { getFirestore, collection, getDocs } from "firebase/firestore";
 
 // Firebase configuration (replace with your Firebase project config)
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API_KEY,
-  authDomain: process.env.FIREBASE_AUTH_DOMAIN,
-  databaseURL: process.env.FIREBASE_DATABASE_URL,
-  projectId: process.env.FIREBASE_PROJECT_ID,
-  storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.FIREBASE_APP_ID,
-  measurementId: process.env.FIREBASE_MEASUREMENT_ID
+  apiKey: "AIzaSyACp0-ANsu-TKxsvNCsEqX9LsFK253IBiM",
+  authDomain: "portfolio-7646.firebaseapp.com",
+  databaseURL: "https://portfolio-7646-default-rtdb.firebaseio.com",
+  projectId: "portfolio-7646",
+  storageBucket: "portfolio-7646.firebasestorage.app",
+  messagingSenderId: "721827608324",
+  appId: "1:721827608324:web:6aeb0b2de1843f1b79c251",
+  measurementId: "G-T8QWBEKZTN"
 };
 
 // Initialize Firebase
