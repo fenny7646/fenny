@@ -10,6 +10,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write  # Ensure the token has write access to the repository
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
