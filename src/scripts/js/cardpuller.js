@@ -1,11 +1,8 @@
-import { data } from './firebase.js'   
-   // Function to generate HTML for all maincards
-function generateHtml(data) {
+// Function to generate HTML for all maincards
+function generatestackHtml(data) {
      let html = '';
-   
      // Get the keys of data.maincards and sort them
      const sortedKeys = Object.keys(data.maincards).sort();
-   
      // Iterate over the sorted keys
      for (const key of sortedKeys) {
        const value = data.maincards[key];
@@ -33,10 +30,8 @@ function generateHtml(data) {
         </div>
        `;
      }
-   
      return html;
    }
-   // Function to display fetched data in the #modalCards div
-     
-     // Call the function to display data
-displayData();
+    
+
+export { generatestackHtml };
