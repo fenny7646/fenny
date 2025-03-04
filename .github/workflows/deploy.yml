@@ -35,8 +35,10 @@ jobs:
           FIREBASE_APP_ID: ${{ secrets.FIREBASE_APP_ID }}
           FIREBASE_MEASUREMENT_ID: ${{ secrets.FIREBASE_MEASUREMENT_ID }}
         
-      - name: Print all environment variables
-        run: env
+      - name: Check if secrets are loaded
+        run: echo "Secret value for MY_SECRET is set"
+        env:
+          MY_SECRET: ${{ secrets.FIREBASE_AUTH_DOMAIN }}
         
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
