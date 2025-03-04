@@ -36,7 +36,7 @@ jobs:
           FIREBASE_MEASUREMENT_ID: ${{ secrets.FIREBASE_MEASUREMENT_ID }}
         
       - name: Print all environment variables
-        run: printenv
+        run: env
         
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
